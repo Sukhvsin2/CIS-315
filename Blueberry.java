@@ -1,6 +1,6 @@
-public class Main
+public class Blueberry
 {
-	public static void Blueberry(String[] args) {
+	public static void main(String[] args) {
 	    
 	    // with While loop
 	    System.out.println("The following is from a while loop: ");
