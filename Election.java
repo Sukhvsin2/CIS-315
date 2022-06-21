@@ -12,8 +12,7 @@ class Election{
         }
         return temp;
     }
-    public void addACandidate(String fName, String lName, char p, Boolean t){
-        Candidate obj = new Candidate(fName, lName, p, t);
+    public void addACandidate(Candidate obj){
         arr = copyFunction(arr);
         arr[arr.length - 1] = obj;
         
